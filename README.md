@@ -2,8 +2,8 @@ Run from terminal:
 $ monte_carlo_simulation.py [--nsamples] [--iterations] [--T0] [--burnIn] [--simLength] [--ifCalibration]
 
 $ monte_carlo_simulation.py --help \
-Help
 <pre>
+Help
 optional arguments: 
   -h, --help            show this help message and exit 
   -n, --nsamples        integer, number of set of samples (draws from distributions) (default: 100) 
