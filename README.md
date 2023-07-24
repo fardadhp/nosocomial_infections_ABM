@@ -1,4 +1,3 @@
-Run from terminal:
 $ monte_carlo_simulation.py [--nsamples] [--iterations] [--T0] [--burnIn] [--simLength] [--ifCalibration]
 
 $ monte_carlo_simulation.py --help \
