@@ -1,24 +1,24 @@
 Run from terminal:
 $ monte_carlo_simulation.py [--nsamples] [--iterations] [--T0] [--burnIn] [--simLength] [--ifCalibration]
 
-$ python monte_carlo_simulation.py --help \n
+$ python monte_carlo_simulation.py --help \
 Help
 
-optional arguments: \n
-  -h, --help            show this help message and exit \n
-  -n NSAMPLES, --nsamples NSAMPLES \n
-                        integer, number of set of samples (draws from distributions) (default: 100) \n
-  -i ITERATIONS, --iterations ITERATIONS \n
-                        integer, number of simulations per set of samples (default: 30) \n
-  -t T0, --T0 T0        string, starting date of simulation, format: 'YYYY-MM-DD' (default: None) \n
-  -b BURNIN, --burnIn BURNIN \n
-                        integer, burn-in period (default: 30) \n
+optional arguments: \
+  -h, --help            show this help message and exit \
+  -n NSAMPLES, --nsamples NSAMPLES \
+                        integer, number of set of samples (draws from distributions) (default: 100) \
+  -i ITERATIONS, --iterations ITERATIONS \
+                        integer, number of simulations per set of samples (default: 30) \
+  -t T0, --T0 T0        string, starting date of simulation, format: 'YYYY-MM-DD' (default: None) \
+  -b BURNIN, --burnIn BURNIN \
+                        integer, burn-in period (default: 30) \
   -l SIMLENGTH, --simLength SIMLENGTH \n
-                        integer, simulation length (default: 360) \n
-  -c IFCALIBRATION, --ifCalibration IFCALIBRATION \n
-                        True/False (default: True) \n
+                        integer, simulation length (default: 360) \
+  -c IFCALIBRATION, --ifCalibration IFCALIBRATION \
+                        True/False (default: True) \
 
-Further details: \n
+Further details: \
 NSAMPLES: Set to a multyiple of your number of cores to maximize multiprocessing capabilities
 
 ITERATIONS: A minimum of 30 is suggested for confidence interval calculations
