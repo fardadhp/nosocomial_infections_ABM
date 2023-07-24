@@ -1,23 +1,18 @@
 Run from terminal:
 $ monte_carlo_simulation.py [--nsamples] [--iterations] [--T0] [--burnIn] [--simLength] [--ifCalibration]
 
-$ python monte_carlo_simulation.py --help \
+$ monte_carlo_simulation.py --help \
 Help
-
-optional arguments: \
-  -h, --help            show this help message and exit \
-  -n NSAMPLES, --nsamples NSAMPLES \
-                        integer, number of set of samples (draws from distributions) (default: 100) \
-  -i ITERATIONS, --iterations ITERATIONS \
-                        integer, number of simulations per set of samples (default: 30) \
-  -t T0, --T0 T0        string, starting date of simulation, format: 'YYYY-MM-DD' (default: None) \
-  -b BURNIN, --burnIn BURNIN \
-                        integer, burn-in period (default: 30) \
-  -l SIMLENGTH, --simLength SIMLENGTH \n
-                        integer, simulation length (default: 360) \
-  -c IFCALIBRATION, --ifCalibration IFCALIBRATION \
-                        True/False (default: True) \
-
+<pre>
+optional arguments: 
+  -h, --help            show this help message and exit 
+  -n, --nsamples        integer, number of set of samples (draws from distributions) (default: 100) 
+  -i, --iterations      integer, number of simulations per set of samples (default: 30) 
+  -t, --T0              string, starting date of simulation, format: 'YYYY-MM-DD' (default: None) 
+  -b, --burnIn          integer, burn-in period (default: 30) 
+  -l, --simLength       integer, simulation length (default: 360) 
+  -c, --ifCalibration   True/False (default: True) 
+</pre>
 Further details: \
 NSAMPLES: Set to a multyiple of your number of cores to maximize multiprocessing capabilities
 
