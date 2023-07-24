@@ -20,4 +20,4 @@ ITERATIONS: A minimum of 30 is suggested for confidence interval calculations
 
 T0: If not known, ignore or use None. The program will use the date of the first event in the event_queue file as T0.
 
-IFCALIBRATION: If set to True, the sampling distributions will be read from *calibration/mc_parameters_ranges.csv*, otherwise, from *data/mc_parameters_ranges.csv*. This is in case a different set of prior distributions should be used for calibration vs. uncertainty analysis. The results of the simulation will be saved to *calibration* or *monte carlo* folders, respectively.
+IFCALIBRATION: If set to True, the sampling distributions will be read from *calibration/mc_parameters_ranges.csv*, otherwise, from *data/mc_parameters_ranges.csv*. This is in case a different set of prior distributions should be used for calibration vs. uncertainty analysis. The results of the simulations will be saved to *calibration* or *monte carlo* folders, respectively.
