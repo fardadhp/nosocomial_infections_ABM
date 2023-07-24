@@ -1,0 +1,7 @@
+hospital_ID,unit_ID,name,capacity,shared_bathrooms,terminal_room_disinfection_binary,probability_admission_testing,probablity_surveillance_testing,surveillance_testing_frequency_days,nurse_shift_hours
+0,0,Cardiac_Care,25,1,1,1,1,7,8
+0,1,Cardiovascular_Surgical,25,1,1,1,1,7,8
+0,2,Medical_Intensive_Care,25,1,1,1,1,7,8
+0,3,Neuro_Critical_Care,25,1,1,1,1,7,8
+0,4,Surgical,25,1,1,1,1,7,8
+0,5,Weinberg,25,1,1,1,1,7,8
