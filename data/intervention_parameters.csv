@@ -1,2 +1,11 @@
 type,description,impact,time,activation
+test,test,0,0,0
 universal_contact_precautions,CP for all patients,1,0,0
+target_decolonization_0,decolonization treatment on detected colonized patients,0,0,0
+target_decolonization_25,decolonization treatment on detected colonized patients,0.25,0,0
+target_decolonization_50,decolonization treatment on detected colonized patients,0.5,0,0
+target_decolonization_75,decolonization treatment on detected colonized patients,0.75,0,0
+target_decolonization_100,decolonization treatment on detected colonized patients,1,0,0
+improve_low_compliance_100,improve low-compliant HCWs to a minimum,1,0,0
+improve_low_compliance_75,improve low-compliant HCWs to a minimum,0.75,0,0
+improve_low_compliance_50,improve low-compliant HCWs to a minimum,0.5,0,0

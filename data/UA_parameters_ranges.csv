@@ -1,0 +1,19 @@
+parameter,owner,model_param_name,for_calibration,min,max
+highly susceptible ratio,ICU,highly_susceptible_ratio,0,0,0.0001
+Terminal room disinfection efficacy,ICU,terminal_room_disinfection_efficacy,0,0.4,1
+residual_contamination_post_hand_washing,ICU,residual_contamination_post_hand_washing,1,0,1
+Transmission increase factor for highly susceptible,ICU,increase_factor_for_highly_susceptible,1,1,1.0001
+Mean probability of room contamination by colonized patients per day,ICU,probability_room_contamination_by_colonized_patient,0,0,1
+Mean probability of transmission from contaminated HCW to susceptible patient,ICU,probability_transmission_from_contaminated_hcw_to_susceptible_patient,1,0,1
+Mean probability of HCW contamination from from colonized patient,ICU,probability_HCW_contamination_from_colonized_patient,0,0,1
+Mean probability of HCW contamination from contaminated environment,ICU,probability_hcw_contamination_from_contaminated_env,0,0,1
+Mean probability of environmental contamination from contaminated HCW,ICU,probability_env_contamination_from_contaminated_hcw,0,0,1
+Probability of patient direct environmental colonization,ICU,probability_environmental_colonization_hourly,1,0,0.2
+Pathogen natural clearance rate from dry surfaces per day,ICU,pathogen_natural_clearance_from_dry_surfaces_per_day,0,0,1
+test_sensitivity,ICU,test_sensitivity,0,0.4,1
+admission_C,ICU,admission_prevalence,0,0,0.5
+HCW compliance variability from mean,other,HCW_hygiene_compliance_variability_from_mean,0,0,0.2
+nurse_hygiene_compliance_enter_mean,ICU,nurse_hygiene_compliance_enter_mean,0,0.5,1
+nurse_hygiene_compliance_exit_mean,ICU,nurse_hygiene_compliance_exit_mean,0,0.5,1
+HCW compliance variability from mean,other,HCW_PPE_compliance_variability_from_mean,0,0,0.2
+nurse_PPE_compliance_mean,ICU,nurse_PPE_compliance_mean,0,0.5,1

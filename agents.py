@@ -452,7 +452,7 @@ class Hospital:
         # transmission pathways
         self.transmissionPathways = dict(np.array(pd.read_csv('./data/transmission_pathways.csv', header=None)))
         # import event queue data
-        self.event_queue = pd.read_csv("./data/event_queue_all.csv")
+        self.event_queue = pd.read_csv("./data/event_queue_all_2017_2018.csv")
         self.event_queue['MRSA_importation'] = self.event_queue['MRSA_importation'].fillna(0).astype(bool)
         self.event_queue['VRE_importation'] = self.event_queue['VRE_importation'].fillna(0).astype(bool) 
         for c in ['in_time','out_time','contact_time_start','contact_time_end','event_time']:
